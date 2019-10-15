@@ -16,7 +16,7 @@
 - Tạo Comment post: khách hàng có thể lưu ý kiến đáng giá về sản phẩm.
 
 # Thành viên tham gia
-- Nguyễn Thị Thao ()
-- Nguyễn Ánh Nguyệt ()
-- Ngô Thị Diệu Linh ()
-- Vũ Khánh Linh ()
+- Nguyễn Thị Thao
+- Nguyễn Ánh Nguyệt
+- Ngô Thị Diệu Linh
+- Vũ Khánh Linh
