@@ -1,0 +1,137 @@
+* {
+	margin: 0px auto;
+	padding: 0px;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+#navbarSupportedContent {
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-left: 45px !important;
+    color: #000 !important;
+    left: 0px;
+    margin-top: 50px;
+}
+#search-info {
+	width: 450px !important;
+}
+.support .support-phone span {
+	font-size: 16px;
+	font-weight: bold;
+	color: red;
+	margin-top: 2px;
+}
+.list-brands {
+	border: 1px solid #ddd;
+}
+.list-brands .heading {
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: red;
+}
+.main {
+	margin-top: 10px;
+}
+.main .logo-brand {
+	text-indent: 10px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.name-brand a {
+	color: #373737;
+}
+.slider .banner img {
+	width: 100%;
+}
+.content {
+	margin-top: 10px;
+}
+.products {
+	margin-bottom: 15px;
+}
+.products-header a {
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: red;
+}
+.main-products .image-product {
+	height: 255px;
+	display: block;
+}
+.main-products img {
+	width: 100%;
+	border-radius: 10px;
+}
+.caption-name a {
+	font-size: 14px !important;
+	color: #000;
+}
+.item-product .thumbnail{
+	margin-bottom: 20px;
+}
+.image-product:hover {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+}
+.news .new-item img {
+	display: block;
+	border-radius: 15px solid #ddd;
+	width: 100%;
+}
+.new-heading a {
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #000;
+}
+.new-title  {
+	margin-top: 10px;
+	text-align: center;
+}
+.new-title a {
+	color: #000;
+	text-transform: uppercase;
+    font-weight: normal;
+    font-size: 16px;
+    padding: 15px 0 0 0;
+}
+.brands-slider {
+	margin-top: 20px;
+}
+.footer {
+	background-color: #322d2f;
+	margin-top: 30px;
+}
+.footer ul {
+	list-style: none;
+	display: block;
+	text-align: left;
+}
+.footer ul li a {
+	color: #6c6c6d;
+}
+#active1 {
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	color: #fff;
+	margin-top: 40px;
+	display: block;
+	text-align: left;
+	font-size: 15px;
+}
+#inbox {
+	color: #6c6c6d;
+}
