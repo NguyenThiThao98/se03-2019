@@ -30,7 +30,7 @@
 							'total'  => 10
 						];
 
-			return view('Admin.index',$data);
+			return view('admin.index',$data);
 		}
 
 		public function view()

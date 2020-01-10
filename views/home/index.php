@@ -33,7 +33,7 @@
 			<a href="?c=brand&m=view&id=2">Sony</a>
 			<a href="?c=brand&m=view&id=3">Asus</a>
 			<a href="?c=brand&m=view&id=5">Samsung</a>
-			<a href="">Phụ kiện</a>
+			<a href="?c=brand&m=view&id=6">Phụ kiện</a>
 
 		</div>
 	</div>
@@ -113,53 +113,56 @@
 						<hr>
 					</div>
 				</div>
+
 			</div>
-			<div class="main-products">
-				<div class="row">
-					<?php  
-						foreach ($productsSale as $item) :
-					?>
-					<div class="col-md-3 item-product">
-						<div class="thumbnail">
-							<div class="image-product">
-								<a href="?c=product&m=view&id=<?php echo $item['id']; ?>">
-									<img src="<?php echo $item['img']; ?>" >
-								</a>
-							</div>
-							<div class="caption text-center">
-								<div class="caption-name">
-									<h2>
-										<a href="?c=product&m=view&id=<?php echo $item['id']; ?>" style="font-size: 14px;"><?php echo $item['name']; ?></a>
-									</h2>
-									<b>
-										<strong>
+            <div class="main-products" >
+                <div class="row">
+                    <?php
+                    foreach ($productsNew as $item) :
+                        ?>
+                        <div class="col-md-3 item-product">
+                            <div class="thumbnail">
+                                <div class="image-product">
+                                    <a href="?c=product&m=view&id=<?php echo $item['id']; ?>">
+                                        <img src="<?php echo $item['img']; ?>" style="height: 255px;" >
+                                    </a>
+                                </div>
+                                <div class="caption text-center">
+                                    <div class="caption-name">
+                                        <h2>
+                                            <a href="?c=product&m=view&id=<?php echo $item['id']; ?>" style="font-size: 14px;"><?php echo $item['name']; ?></a>
+                                        </h2>
+                                        <b>
+                                            <strong>
 											<span class="text-danger">
-												Giá: <?php echo number_format($item['price']); ?>	
+												Giá: <?php echo number_format($item['price']); ?>
 											</span>
-										</strong>
-									</b>
-								</div>
-								<div class="caption-cart btn-group  btn-group-justified" role="group">
-									<a href="?c=product&m=view&id=<?php echo $item['id']; ?>" class="btn btn-primary">
-										<i class="far fa-eye"></i>
-										Chi Tiết
-									</a>
+                                            </strong>
+                                        </b>
+                                    </div>
+                                    <div class="caption-cart btn-group  btn-group-justified" role="group">
+                                        <a href="?c=product&m=view&id=<?php echo $item['id']; ?>" class="btn btn-primary">
+                                            <i class="far fa-eye"></i>
+                                            Chi Tiết
+                                        </a>
 
-									<button href="#" class="btn btn-success buyNow" role="button" product="<?php echo $item['id']; ?>">
-										<i class="fas fa-cart-plus"></i>
-										Thêm vào giỏ 
-									</button>
-								</div>
-							</div>
-						</div>
+                                        <button type="button" class="btn btn-success buyNow" role="button" product="<?php echo $item['id']; ?>">
+                                            <i class="fas fa-cart-plus"></i>
 
-					</div>
-					<?php  
-						endforeach;
-					?>
-					
-				</div>
-			</div>
+
+                                            Thêm vào giỏ
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    <?php
+                    endforeach;
+                    ?>
+
+                </div>
+            </div>
 		</div>
 		<div class="products">
 			<div class="products-header">
