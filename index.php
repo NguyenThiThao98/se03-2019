@@ -1,3 +1,4 @@
+
 <?php
 session_start();
 $rootPath = dirname(__FILE__);
