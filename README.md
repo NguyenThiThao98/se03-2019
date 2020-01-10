@@ -9,10 +9,12 @@
 - CSS3 (https://www.w3schools.com/css/)
 - PHP (https://freetuts.net/hoc-php)
 - IDE (PhpStorm)
+- Github desktop
 
 # Chức năng chính
 - Đăng nhập: Khách hàng đăng nhập bằng tài khoản cá nhân trên trang web để xem và mua hàng. Khi không đăng nhập, khách hàng chỉ xem, không thể mua.
 - Sản phẩm: hiển thị danh sách các sản phẩm và thông tin chi tiết của từng sản phẩm. Cho phép khách hàng tìm kiếm sản phẩm theo từ khóa liên quan.
+- Giỏ hàng: khách hàng có thể chọn sản phẩm cho vào giỏ hàng của mình
 - Tạo Comment post: khách hàng có thể lưu ý kiến đáng giá về sản phẩm.
 
 # Thành viên tham gia
